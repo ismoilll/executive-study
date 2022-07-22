@@ -16,6 +16,15 @@
     url('../fonts/roboto-v30-latin-900.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
     url('../fonts/roboto-v30-latin-900.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
 }
+/* abel-regular - latin */
+@font-face {
+    font-family: 'Abel';
+    font-style: normal;
+    font-weight: 400;
+    src: local(''),
+    url('../fonts/abel-v18-latin-regular.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+    url('../fonts/abel-v18-latin-regular.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
 body{
     margin: 0;
     padding: 0;
@@ -33,7 +42,7 @@ body{
     position: absolute;
     white-space: nowrap;
     width: 1px;
-  }
+}
 .header{
     display: flex;
     align-items: center;
@@ -85,6 +94,7 @@ body{
     line-height: 66px;
 }
 .intro-p2{
+    font-family: 'Abel';
     font-weight: 500;
     font-size: 22px;
     line-height: 38px;
