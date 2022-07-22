@@ -533,7 +533,7 @@ body{
 }
 /*dreams bo;limi tugadi*/
 .footer-footer{
-    background-color: #717CFF;
+    background-color: rgb(55, 230, 55);
     display: flex;
     align-items: center;
     height: 346px;
