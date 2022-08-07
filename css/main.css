@@ -94,7 +94,6 @@ body{
     line-height: 66px;
 }
 .intro-p2{
-    font-family: 'Abel';
     font-weight: 500;
     font-size: 22px;
     line-height: 38px;
@@ -126,6 +125,7 @@ body{
     margin-left: 25px;
 }
 .intro{
+    font-family: 'Abel';
     background-image: url(../img/Oval.svg);
     background-repeat: no-repeat;
     background-position:  calc(50% + 630px) calc(100% + 163px );
